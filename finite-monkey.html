@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<link href='css_contents.css' rel="stylesheet" type="text/css">
+		<link href='finite-monkey.css' rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <title>Finite Monkey</title>
+  </head>
+  <body id='main'>
+  
+	<div class='wrap'>
+	
+		<div id='manuscript' class='page'>
+		
+			<h1 class='title'>Sonnet</h1>
+			<div id='verse'></div>
+				
+		</div>
+		
+		<div id='typist' class='page'>
+		
+			
+			
+			<form id='interactive'>
+				<fieldset name='userImg'>
+					<section class="container">
+					  <div id="card">
+						<figure class="front"><img class='illumination' src='img/picture21.jpg' alt='monkey'> </figure>
+						<figure class="back"><img class='illumination' src='img/shakespeare.jpg' alt='shakespeare'></figure>
+					  </div>
+					</section>
+				</fieldset>
+				
+				<fieldset name='userOutput'>
+					<label for='mash'>Type for banana:</label>
+					<input id='mash' class="input-name" type='text' name='monkeyType' value='' autocomplete="off">
+					<button id='submit' type='button'>Publish</button>
+				</fieldset>
+					
+				<fieldset name='userInput'>
+					<p id='print'></p>
+				</fieldset>
+			</form>
+			
+			
+			
+			
+		</div>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src='finite-monkey.js'></script>
+  </body>
+</html>

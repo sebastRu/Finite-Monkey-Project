@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*-----LAYOUT-----*/
+
+.wrap {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+	.page {
+		width: 85vw;
+		height: 90vh;
+		margin: 50px 100px 60px;
+		border: 1px solid black;
+	}
+
+	#manuscript.page {
+		margin-left: 25px;
+	}
+
+	#typist.page {
+		margin-right: 25px;
+	}
+	
+	form#interactive {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	fieldset {
+		flex-grow: 1;
+	}
+	
+	fieldset[name=userOutput]	{
+		width: 100%;
+		flex-grow: 2;
+	}
+	
+		.container {
+			width: 200px;
+			height: 200px;
+			margin: 20px;
+			display: inline-block;
+			perspective: 800px;
+		}
+			
+		#interactive label,
+		#interactive input,
+		#interactive button{
+			display: block;
+			box-sizing: border-box;
+			width: 100%;
+		}
+
+
+/*-----ANIMATE-----*/
+
+
+
+#card {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d; /** makes #card children inherit 3D **/
+	transition: 1s;
+}
+
+#card figure {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	backface-visibility: hidden; 
+}
+
+#card .back {
+  transform: rotateY( 180deg );
+}
+/*
+#card:hover {
+	transform: rotateY( 180deg );
+}
+*/
+.illumination {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}

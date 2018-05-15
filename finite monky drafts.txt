@@ -1,0 +1,66 @@
+/**$(".submit").click(function() { // name the sonnet
+			sonnetTitle = $( ".title" ).text(); // get the current title from page
+			if ( manuscript === sonnet ) {
+				sonnetTitle += '130';
+			} else {
+				sonnetTitle += randNum(9999);				
+			};
+			$( ".title" ).html( sonnetTitle );
+		});**/
+		
+		printArr = strToArr(print, " ");
+		for ( var i = 0; i < printArr.length; i++ ) {
+			var highlight = sonnetArr.indexOf( strToArr(print, " ") );
+			if ( highlight <= -1 ) {
+				console.log( 'yes' );
+			} else {
+				console.log( 'no' )
+			}
+		}
+		
+	var el = document.querySelector('span');
+	el.style.backgroundColor = 'tomato';
+				
+	for ( var j = 0; j < x.length; j++ ) {
+			if ( greater.indexOf( within[i] ) - 1 === x[j] ) { //how does this work?
+				
+			}
+		}
+
+function findVerse( greater, within ) { // find a pattern of strings within a greater array of strings
+	var x = [];
+	var y = [];
+	for ( var i = 0; i < within.length; i++ ) {
+		x.push( greater.indexOf( within[i] ));
+		for ( var j = 0; j < within.length; j++ ) {
+			if ( x[j] === (y[j] + 1) ) {
+				console.log('true');
+			} else {
+				console.clear();
+			}
+			y.push( greater.indexOf( within[i] ))
+		}
+	}
+}		
+
+function findVerse( x, y ) { // find a pattern of strings within a greater array of strings
+	var z = [];
+	for ( var i = 0; i < y.length; i++ ) {
+		z.push( x.indexOf( y[i] ));
+	}
+	console.log(z);
+}
+
+				
+			
+function findVerse( sonnetArr, manuscript ) { 
+	for ( var i = 0; i < manuscript.length(3); i++ ) {
+		var whereIndexIs = [52];
+		if ( sonnetArr.indexOf( manuscript[1] ) 52 + 1 === whereIndexIs[52] || whereIndexIs.length === 0 ) {
+			console.log('yasss queen');
+		}
+		whereIndexIs.push( SonnetArr.indexOf( manuscript[0] ));
+		console.clear();
+		console.log( whereIndexIs );
+	}
+}

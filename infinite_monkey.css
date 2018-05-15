@@ -1,0 +1,67 @@
+body {
+		background-color: #A3B9FF;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+}
+
+.wrap {
+	width: 80%;
+	margin: auto;
+	background-color: rgb(241,255,243);
+	border-radius: 5px 10px 0;
+	display: flex;
+	flex-flow: row-reverse nowrap;
+	justify-content: stretch;
+}
+
+.cola {
+	width: 80%;
+	padding-left: 50px;
+}
+
+.colb {
+	width: 20%
+}
+
+
+.illumination {
+	height: 150px;
+	width: 150px;
+	margin: 50px;
+	border: solid 3px rgb(0,0,0);
+	border-radius: 50%;
+}
+
+/*---------- Form ---------**/
+
+
+#interactive {
+	max-width: 100%;
+	display: flex;
+	color: lightslategrey;
+	font-family: arial;
+}
+
+.work {
+	width: 60px;
+	height: 60px;
+	margin-right: 7px;
+	border: solid 1px rgb(0,187,255);
+	border-radius: 2px;
+	background: url("img/typewriter.jpg") center/100%;
+}
+
+.monkeyType {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.monkeyType label {
+	font-size: 1.2em;
+	padding-bottom: 4px;
+}
+
+
